@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+.header {
+  margin-top: 1.6rem;
+}
+
+#navbarHeader {
+  align-items: center;
+}
+#navbarHeader__link {
+  color: #F9F5FF;
+  cursor: default;
+}
+#navbarHeader__link--text {
+  font-size: 2rem;
+}
+#navbarHeader__list--link {
+  color: #F9F5FF;
+  text-decoration: none;
+  text-decoration-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+#navbarHeader__list--link:hover {
+  color: #F9F5FF;
+  text-decoration: underline;
+}
+#navbarHeader__list--item {
+  font-size: 1.375rem;
+  margin: 20px 0 20px 1.6rem;
+}
+
+body {
+  background-color: #05071e;
+  font-family: "Inter", sans-serif;
+}
+
+.showCase__div {
+  display: flex;
+  align-items: center;
+}
+.showCase__info {
+  color: #F9F5FF;
+}
+.showCase__info h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.showCase__info h1 {
+  font-size: 3rem;
+  padding: 12px 0 0 0;
+}
+.showCase__info p {
+  font-size: 1.125rem;
+  padding: 12px 0;
+}
+.showCase__info p span {
+  font-weight: 500;
+}
+.showCase__info button {
+  padding: 8px 25px;
+  font-weight: 500;
+  border: none;
+  background-color: #F9F5FF;
+  color: rgba(0, 0, 0, 0.85);
+  border-radius: 16px;
+  letter-spacing: -1px;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+.showCase__info button:hover {
+  color: black;
+  box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.379);
+}
+.showCase__img {
+  width: 800px;
+}
+.showCase__imgDiv {
+  display: flex;
+  justify-content: right;
+}
+
+@media only screen and (max-width: 576px) {
+  .showCase__imgDiv {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

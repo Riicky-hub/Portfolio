@@ -14,12 +14,18 @@
         &--link {
             color: $white;
             text-decoration: none;
+            text-decoration-color: rgba(255, 255, 255, 0);
             cursor: pointer;
+            transition: $transition;
+            &:hover {
+                color: $white;
+                text-decoration: underline;
+            }
         }
         &--item {
-            margin-left: 1.6rem;
             font-size: $mediumLow-fontSize;
-            padding: 20px 0;
+            margin: 20px 0 20px 1.6rem;
+            
         }
     }
 }

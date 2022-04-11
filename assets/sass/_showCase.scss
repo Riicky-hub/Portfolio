@@ -1,0 +1,51 @@
+.showCase {
+    &__div {
+        display: flex;
+        align-items: center;
+    }
+    &__info {
+        color: $white;
+        h2 {
+            font-size: $medium-fontSize;
+            font-weight: 300;
+        }
+        h1 {
+            font-size: $big-fontSize;
+            padding: 12px 0 0 0;
+        }
+        p {
+            font-size: $low-fontSize;
+            padding: 12px 0;
+            span {
+                font-weight: 500;
+            }
+        }
+        button {
+            padding: 8px 25px;
+            font-weight: 500;
+            border: none;
+            background-color: $white;
+            color: rgba(0, 0, 0, 0.850);
+            border-radius: 16px;
+            letter-spacing: -1px;
+            text-align: center;
+            transition: $transition;
+            &:hover {
+                color: black;
+                box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.379);
+            }
+        }
+    }
+    &__img {
+        width: 800px;
+    }
+    &__imgDiv {
+        display: flex;
+        justify-content: right;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .showCase__imgDiv {
+        display: none;
+    }
+}
