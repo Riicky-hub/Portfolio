@@ -1,0 +1,25 @@
+.header {
+    margin-top: 1.6rem;
+}
+#navbarHeader {
+    align-items: center;
+    &__link {
+        color: $white;
+        cursor: default;
+        &--text {
+            font-size: $medium-fontSize;
+        }
+    }
+    &__list {
+        &--link {
+            color: $white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        &--item {
+            margin-left: 1.6rem;
+            font-size: $mediumLow-fontSize;
+            padding: 20px 0;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/style.scss","../sass/_header.scss","../sass/_vars.scss","../sass/_global.scss"],"names":[],"mappings":"AAAQ;ACAR;EACI;;;AAEJ;EACI;;AACA;EACI;EACA;;AACA;EACI,WCNM;;ADUV;EACI,OCRJ;EDSI;EACA;;AAEJ;EACI;EACA,WClBS;EDmBT;;;AErBZ;EACI,kBDMe;ECLf","file":"style.css"}
