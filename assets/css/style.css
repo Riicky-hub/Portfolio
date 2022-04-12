@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 .header {
-  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
 }
 
 #navbarHeader {
@@ -29,6 +29,34 @@
   margin: 20px 0 20px 1.6rem;
 }
 
+.space {
+  aspect-ratio: 960/300;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -2;
+}
+
+.layer-header {
+  background-image: url("../img/background-header.svg");
+}
+
+@media only screen and (max-width: 767px) {
+  .layer-header {
+    background-image: url("../img/background-headerTablet.svg");
+  }
+
+  #navbarHeader {
+    padding: 20px 0;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .layer-header {
+    background-image: url("../img/background-headerMobile.svg");
+  }
+}
 body {
   background-color: #05071e;
   font-family: "Inter", sans-serif;
