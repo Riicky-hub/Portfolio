@@ -34,6 +34,26 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.botao_default {
+  padding: 8px 25px;
+  font-weight: 500;
+  border: none;
+  background-color: #F9F5FF;
+  color: rgba(0, 0, 0, 0.85);
+  border-radius: 16px;
+  letter-spacing: -1px;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+.botao_default:hover {
+  color: black;
+  box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.379);
+}
+.botao_default a {
+  color: rgba(0, 0, 0, 0.85);
+  text-decoration: none;
+}
+
 .showCase__div {
   display: flex;
   align-items: center;
@@ -55,21 +75,7 @@ body {
 }
 .showCase__info p span {
   font-weight: 500;
-}
-.showCase__info button {
-  padding: 8px 25px;
-  font-weight: 500;
-  border: none;
-  background-color: #F9F5FF;
-  color: rgba(0, 0, 0, 0.85);
-  border-radius: 16px;
-  letter-spacing: -1px;
-  text-align: center;
-  transition: all 0.5s ease-in-out;
-}
-.showCase__info button:hover {
-  color: black;
-  box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.379);
+  color: white;
 }
 .showCase__img {
   width: 800px;
@@ -80,8 +86,67 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
-  .showCase__imgDiv {
+  .showCase {
+    text-align: center;
+  }
+}
+.aboutMe__title {
+  color: #F9F5FF;
+  font-size: 2rem;
+  text-align: center;
+  margin: 40px 0;
+}
+.aboutMe__img {
+  width: 580px;
+}
+.aboutMe__text {
+  color: #F9F5FF;
+}
+.aboutMe__text span {
+  font-weight: 500;
+  color: white;
+}
+
+@media only screen and (max-width: 576px) {
+  .aboutMe {
+    text-align: center;
+  }
+  .aboutMe__img {
     display: none;
+  }
+}
+.footer {
+  margin: 30px 10px;
+  color: #F9F5FF;
+  align-items: center;
+}
+.footer__list--icon {
+  margin-left: 50px;
+}
+.footer__list--link {
+  color: #F9F5FF;
+  font-size: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+.footer__list--link:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer__up {
+    display: none;
+  }
+  .footer__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer__list--icon {
+    margin: 0;
+  }
+  .footer p {
+    margin-top: 25px;
+    text-align: center;
   }
 }
 

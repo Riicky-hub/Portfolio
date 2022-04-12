@@ -18,21 +18,7 @@
             padding: 12px 0;
             span {
                 font-weight: 500;
-            }
-        }
-        button {
-            padding: 8px 25px;
-            font-weight: 500;
-            border: none;
-            background-color: $white;
-            color: rgba(0, 0, 0, 0.850);
-            border-radius: 16px;
-            letter-spacing: -1px;
-            text-align: center;
-            transition: $transition;
-            &:hover {
-                color: black;
-                box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.379);
+                color: white;
             }
         }
     }
@@ -45,7 +31,7 @@
     }
 }
 @media only screen and (max-width: 576px) {
-    .showCase__imgDiv {
-        display: none;
+    .showCase {
+        text-align: center;
     }
 }

@@ -2,3 +2,22 @@ body {
     background-color: $background-color;
     font-family: 'Inter', sans-serif;
 }
+.botao_default {
+    padding: 8px 25px;
+    font-weight: 500;
+    border: none;
+    background-color: $white;
+    color: rgba(0, 0, 0, 0.850);
+    border-radius: 16px;
+    letter-spacing: -1px;
+    text-align: center;
+    transition: $transition;
+    &:hover {
+        color: black;
+        box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.379);
+    }
+    a {
+        color: rgba(0, 0, 0, 0.850);
+        text-decoration: none;
+    }
+}

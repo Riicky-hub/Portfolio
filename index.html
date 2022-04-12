@@ -13,7 +13,7 @@
         <header class="header">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-dark" id="navbarHeader">
-                    <a href="./index.html" class="nav-link" id="navbarHeader__link">
+                    <a href="#navbarHeader" class="nav-link" id="navbarHeader__link">
                         <h1 id="navbarHeader__link--text">Riicky-Hub</h1>
                     </a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
@@ -22,10 +22,9 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarHeader__list">
                         <ul class="navbar-nav ms-auto text-center">
-                            <li id="navbarHeader__list--item"><a href="#navbarHeader" id="navbarHeader__list--link">Sobre
-                                    mim</a></li>
+                            <li id="navbarHeader__list--item"><a href="#aboutMe" id="navbarHeader__list--link">Sobre mim</a></li>
                             <li id="navbarHeader__list--item"><a href="#" id="navbarHeader__list--link">Projetos</a></li>
-                            <li id="navbarHeader__list--item"><a href="#" id="navbarHeader__list--link">Contato</a></li>
+                            <li id="navbarHeader__list--item"><a href="#footer__up" id="navbarHeader__list--link">Contato</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -45,7 +44,7 @@
                             Britânica de artes criativas e
                             tecnologia(EBAC)</span>
                         </p>
-                        <button>Entrar em contato</button>
+                        <button class="botao_default"><a href="#footer__up">Entrar em contato</a></button>
                     </div>
                     <div class="col-md-6 showCase__imgDiv">
                         <img class="showCase__img img-fluid" src="./assets/img/pixeltrue-web-development.svg" alt="">
@@ -53,6 +52,61 @@
                 </div>
             </div>
         </section>
+        <section class="aboutMe">
+            <div class="container" id="aboutMe">
+                <h2 class="aboutMe__title">Mais sobre mim</h2>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 aboutMe__imgDiv">
+                        <img class="aboutMe__img img-fluid" src="./assets/img/img-aboutMe.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-sm-12 aboutMe__text" id="aboutMe__text">
+                        <p> Possuo carreira em evolução na área de <span>TI/Desenvolvimento, inglês avançado</span> e conhecimento em <span>diversas linguagens de programação</span>, sempre sendo flexível e aprendendo metodologias novas para me aprimorar.
+                            
+                            Estou cursando Full Stack Python e ganhando mais conhecimento para aperfeiçoamento das minhas skills em:
+                            <br> - HTML, Python, JavaScript, CSS e layouts Front-end
+                            <br> - Criação de microsserviços
+                            <br> - Automatização de fluxos de trabalho
+                            <br> - Integração Front e Back-end
+                            <br> - Desenvolvimento e testes com Django, Postgres e APIs
+                            <br> - SQL e bancos de dados
+                        </p>
+                        <p>Aprimorar minha carreira de programador e
+                            trabalhar de maneira única e inovadora,
+                            participar de grandes projetos e trabalhar em
+                            equipe, para eventualmente, evoluir cada vez
+                            mais como profissional.
+                        </p>
+                        <div>
+
+                        </div>
+                        <button class="botao_default"><a href="#footer__up">Entrar em contato</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer_contato">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 footer__up" id="footer__up">
+                            <a href="#navbarHeader" class="footer__list--link"><i class="fa-solid fa-circle-arrow-up"></i></a>
+                        </div>
+                        <div class="col-md-7 col-sm-12">
+                            <nav class="navbar navbar-dark navbar-expand">
+                                <ul class="navbar-nav ms-auto text-center footer__list">
+                                    <li class="footer__list--icon"><a target="_blank" href="https://www.instagram.com/riicky_ace/" class="footer__list--link"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li class="footer__list--icon"><a target="_blank" href="https://www.linkedin.com/in/ricardo-amorim-ferreira/" class="footer__list--link"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="footer__list--icon"><a target="_blank" href="https://github.com/Riicky-hub" class="footer__list--link"><i class="fa-brands fa-github"></i></a></li>
+                                    <li class="footer__list--icon"><a target="_blank" href="mailto:insertemailhere@xyz.com" class="footer__list--link"><i class="fa-solid fa-envelope"></i></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <p> &copy; Riicky-hub 2022 </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://kit.fontawesome.com/efde86963f.js" crossorigin="anonymous"></script>
         <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="./assets/js/script.js"></script>
     </body>

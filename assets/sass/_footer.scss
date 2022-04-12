@@ -1,0 +1,38 @@
+.footer {
+    margin: 30px 10px;
+    color: $white;
+    align-items: center;
+    &__list {
+        &--icon {
+            margin-left: 50px;
+        }
+        &--link {
+            color: $white;
+            font-size: $medium-fontSize;
+            transition: $transition;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        &__up {
+            display: none;
+        }
+        &__list {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            &--icon {
+                margin: 0;
+            }
+        }
+        p {
+            margin-top: 25px;
+            text-align: center;
+        }
+    }
+}
