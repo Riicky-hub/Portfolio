@@ -3,19 +3,71 @@
         color: $white;
         font-size: $medium-fontSize;
         text-align: center;
-        margin: 40px 0;
+        margin: 60px 0;
     }
     &__img {
         width: 580px;
     }
     &__text {
         color: $white;
-        span {
-            font-weight: 500;
-            color: white;
+        h2 {
+            font-size: $medium-fontSize;
+            font-family: $alt-font;
+            font-weight: bold;
+        }
+        p {
+            color: $white;
+            font-size: $low-fontSize;
+            span {
+                font-weight: 500;
+                color: white;
+            }
+        }
+    }
+    &__tech {
+        &--frontEnd {
+            margin: 15px 3px;
+        }
+        &--backEnd {
+            margin: 15px 3px;
+        }
+        &--dados-devops {
+            margin: 15px 3px;
         }
     }
 }
+.tech {
+    &__title {
+        display: block;
+        font-size: $mediumLow-fontSize;
+        color: $white;
+
+    }
+    &__div {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__icon {
+        display: block;
+        padding: 5px 6px;
+        border-radius: 5px;
+        margin: 2px 7px;
+        max-height: 40px;
+        img {
+            display: inline;
+            height: 30px;
+            width: 30px;
+        }
+        h6 {
+            display: inline;
+            margin-right: 2px;
+            cursor: default;
+            color: $white;
+        }
+    }
+}
+
 @media only screen and (max-width: 576px) {
     .aboutMe {
         text-align: center;
