@@ -11,13 +11,15 @@
         }
         h1 {
             font-size: $big-fontSize;
-            padding: 12px 0 0 0;
+            padding-top: 10px;
+            font-family: $alt-font;
+            font-weight: 600;
         }
         p {
             font-size: $low-fontSize;
             padding: 12px 0;
             span {
-                font-weight: 500;
+                font-weight: 600;
                 color: white;
             }
         }

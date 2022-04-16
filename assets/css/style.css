@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
 .header {
   margin-bottom: 1.6rem;
 }
@@ -11,7 +12,9 @@
   cursor: default;
 }
 #navbarHeader__link--text {
-  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 2.4rem;
 }
 #navbarHeader__list--link {
   color: #F9F5FF;
@@ -95,14 +98,16 @@ body {
 }
 .showCase__info h1 {
   font-size: 3rem;
-  padding: 12px 0 0 0;
+  padding-top: 10px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
 }
 .showCase__info p {
   font-size: 1.125rem;
   padding: 12px 0;
 }
 .showCase__info p span {
-  font-weight: 500;
+  font-weight: 600;
   color: white;
 }
 .showCase__img {
