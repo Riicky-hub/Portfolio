@@ -66,7 +66,8 @@ body {
 }
 
 .botao_default {
-  padding: 8px 25px;
+  padding: 10px 25px;
+  text-decoration: none;
   font-weight: 500;
   border: none;
   background-color: #F9F5FF;
@@ -482,6 +483,12 @@ body {
 ::placeholder {
   color: #F9F5FF;
   opacity: 1;
+}
+
+@media only screen and (max-width: 900px) {
+  .modal-dialog {
+    max-width: 95%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

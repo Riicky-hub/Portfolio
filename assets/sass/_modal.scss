@@ -99,3 +99,8 @@
     color: $white;
     opacity: 1;
 }
+@media only screen and (max-width: 900px) {
+    .modal-dialog {
+        max-width: 95%;
+    }
+}
