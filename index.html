@@ -28,7 +28,7 @@
                         <ul class="navbar-nav ms-auto text-center">
                             <li id="navbarHeader__list--item"><a href="#aboutMe" id="navbarHeader__list--link">Sobre mim</a></li>
                             <li id="navbarHeader__list--item"><a href="#project__title" id="navbarHeader__list--link">Projetos</a></li>
-                            <li id="navbarHeader__list--item"><a href="#footer__up" id="navbarHeader__list--link">Contato</a></li>
+                            <li id="navbarHeader__list--item"><a href="#" id="navbarHeader__list--link" data-bs-toggle="modal" data-bs-target="#modal__contact"><i class="fa-solid fa-circle-user"></i> Contato</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -48,7 +48,7 @@
                             Britânica de artes criativas e
                             tecnologia(EBAC)</span>
                         </p>
-                        <button class="botao_default"><a href="#footer__up">Entrar em contato</a></button>
+                        <button class="botao_default"><a href="#" data-bs-toggle="modal" data-bs-target="#modal__contact">Entrar em contato</a></button>
                     </div>
                     <div class="col-md-6 showCase__imgDiv">
                         <img class="showCase__img img-fluid" src="./assets/img/pixeltrue-web-development.svg" alt="">
@@ -138,7 +138,7 @@
                                 em diversas linguagens de programação, sempre sendo <span>flexível</span> e aprendendo metodologias novas para me aprimorar.
                             </p>
                         </div>
-                        <button class="botao_default"><a href="#footer__up">Entrar em contato</a></button>
+                        <button class="botao_default"><a href="#" data-bs-toggle="modal" data-bs-target="#modal__contact">Entrar em contato</a></button>
                     </div>
                 </div>
             </div>
@@ -220,7 +220,7 @@
                                     <li class="footer__list--icon"><a target="_blank" href="https://www.instagram.com/riicky_ace/" class="footer__list--link"><i class="fa-brands fa-instagram"></i></a></li>
                                     <li class="footer__list--icon"><a target="_blank" href="https://www.linkedin.com/in/ricardo-amorim-ferreira/" class="footer__list--link"><i class="fa-brands fa-linkedin"></i></a></li>
                                     <li class="footer__list--icon"><a target="_blank" href="https://github.com/Riicky-hub" class="footer__list--link"><i class="fa-brands fa-github"></i></a></li>
-                                    <li class="footer__list--icon"><a target="_blank" href="mailto:insertemailhere@xyz.com" class="footer__list--link"><i class="fa-solid fa-envelope"></i></a></li>
+                                    <li class="footer__list--icon"><a target="_blank" href="mailto:richardjosephace1960@gmail.com" class="footer__list--link"><i class="fa-solid fa-envelope"></i></a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -229,6 +229,75 @@
                 </div>
             </div>
         </footer>
+        <!-- Modal -->
+        <div class="modal fade" id="modal__contact" tabindex="-1" aria-hidden="true" aria-labelledby="modalContactLabel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 info">
+                                <h3>Minhas redes sociais</h3>
+                                <p>Caso queira entrar em contato direto invés do cadastro, minhas redes socias são:</p>
+                                <div class="info__socialMedias">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a target="_blank" href="https://www.instagram.com/riicky_ace/">
+                                                    <div class="tech__icon info__socialMedias--item" style="background-color: #340000;">
+                                                        <img src="./assets/img/icons/instagram.svg" alt="Instagram">
+                                                        <h6>Instagram</h6>
+                                                    </div>
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a target="_blank" href="https://www.linkedin.com/in/ricardo-amorim-ferreira/">
+                                                    <div class="tech__icon info__socialMedias--item" style="background-color: #19669e;">
+                                                        <img src="./assets/img/icons/linkedin.svg" alt="LinkedIn">
+                                                        <h6>LinkedIn</h6>
+                                                    </div>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a target="_blank" href="https://github.com/Riicky-hub">
+                                                    <div class="tech__icon info__socialMedias--item" style="background-color: #787878;">
+                                                        <img src="./assets/img/icons/github.svg" alt="GitHub">
+                                                        <h6>GitHub</h6>
+                                                    </div>
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a target="_blank" href="mailto:richardjosephace1960@gmail.com">
+                                                    <div class="tech__icon info__socialMedias--item" style="background-color: #e81c1c;">
+                                                        <img src="./assets/img/icons/gmail.svg" alt="E-mail">
+                                                        <h6>E-mail</h6>
+                                                    </div>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-6 form">
+                                <form action="" class="form__form">
+                                    <div>
+                                        <input type="text" class="form__form--input" placeholder="Nome" required>
+                                        <input type="email" class="form__form--input" placeholder="E-mail" required>
+                                        <textarea class="form__form--input" placeholder="Mensagem" required></textarea>
+                                    </div>
+                                    <button class="form__form--btn"><p>Enviar mensagem  <i class="fa-solid fa-arrow-right-long"></i></p></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="https://kit.fontawesome.com/efde86963f.js" crossorigin="anonymous"></script>
         <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="./assets/js/script.js"></script>

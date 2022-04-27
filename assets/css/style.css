@@ -381,5 +381,107 @@ body {
     width: 100%;
   }
 }
+.modal-dialog {
+  max-width: 900px;
+}
+
+.modal-header {
+  background: linear-gradient(to top, #111967, #2937d6);
+  color: #F9F5FF;
+  border: none;
+}
+
+.modal-body {
+  padding: 0;
+}
+.modal-body .row {
+  --bs-gutter-x: 0;
+}
+.modal-body .info {
+  background-color: #F9F5FF;
+}
+.modal-body .info h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  margin-top: 5px;
+}
+.modal-body .info p {
+  margin: 0 10px;
+  line-height: 1;
+  text-align: center;
+}
+.modal-body .info__socialMedias {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal-body .info__socialMedias a {
+  text-decoration: none;
+}
+.modal-body .info__socialMedias--item h6 {
+  cursor: pointer;
+}
+.modal-body .form {
+  background-color: #111967;
+  padding: 20px 0;
+}
+.modal-body .form__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-body .form__form div {
+  width: 80%;
+}
+.modal-body .form__form--input {
+  background: transparent;
+  color: #F9F5FF;
+  border: 2px solid #F9F5FF;
+  padding: 5px;
+  margin: 5px 0;
+  width: 100%;
+}
+.modal-body .form__form textarea {
+  max-height: 120px;
+  min-height: 120px;
+  resize: none;
+}
+.modal-body .form__form--btn {
+  padding: 9px 30px;
+  font-size: 1.125rem;
+  color: #F9F5FF;
+  border-radius: 40px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #F9F5FF;
+  transition: all 0.5s ease-in-out;
+}
+.modal-body .form__form--btn p {
+  margin: 0;
+  width: 100%;
+}
+.modal-body .form__form--btn p i {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.modal-body .form__form--btn:hover {
+  border: 2px solid transparent;
+  background-color: #F9F5FF;
+  color: black;
+}
+.modal-body .form__form--btn:hover i {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+::placeholder {
+  color: #F9F5FF;
+  opacity: 1;
+}
 
 /*# sourceMappingURL=style.css.map */
