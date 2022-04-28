@@ -382,6 +382,10 @@ body {
     width: 100%;
   }
 }
+.modal-content {
+  border: 0;
+}
+
 .modal-dialog {
   max-width: 900px;
 }
