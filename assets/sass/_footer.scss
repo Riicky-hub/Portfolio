@@ -1,7 +1,25 @@
 .footer {
-    margin: 30px 10px;
+    padding: 30px 10px;
     color: $white;
     align-items: center;
+    overflow: hidden;
+    position: relative;
+    &__shapes {
+        &--item1 {
+            position: absolute;
+            z-index: -1;
+            bottom: -65px;
+            left: -25px;
+            height: 170px;
+        }
+        &--item2 {
+            position: absolute;
+            z-index: -2;
+            bottom: 20px;
+            right: -30px;
+            height: 170px;
+        }
+    }
     &__list {
         &--icon {
             margin-left: 50px;

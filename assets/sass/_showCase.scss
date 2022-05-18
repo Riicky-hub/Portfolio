@@ -1,4 +1,22 @@
 .showCase {
+    overflow: hidden;
+    position: relative;
+    &__shapes {
+        &--item1 {
+            position: absolute;
+            z-index: -1;
+            bottom: 30px;
+            left: -60px;
+            height: 170px;
+        }
+        &--item2 {
+            position: absolute;
+            z-index: -2;
+            top: 0;
+            right: -70px;
+            height: 170px;
+        }
+    }
     &__div {
         display: flex;
         align-items: center;
