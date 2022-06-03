@@ -12,8 +12,8 @@ _Ilustrações e ícones vem do Icons8 - [Icons8](https://icons8.com/)_
 
 | Dev.Dependencies | Dependencies |
 |:-------------:|:-------------:|
-| Webpack | Bootstrap |
-| Gulp | Font Awesome |
+| ---- | Bootstrap |
+| ---- | Font Awesome |
 
 ### Instalação
 
