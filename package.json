@@ -1,13 +1,13 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Portfolio pessoal para mapear trabalhos e habilidades",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Riicky-hub",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.1.3"
