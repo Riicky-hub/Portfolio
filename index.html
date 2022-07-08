@@ -8,6 +8,7 @@
         <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/vendor/aos/css/aos.css">
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
@@ -36,8 +37,8 @@
         </header>
         <section class="showCase">
             <!-- svg shapes -->
-            <img src="./assets/img/svgShapes/blob.svg" class="shapes showCase__shapes--item1">
-            <img src="./assets/img/svgShapes/blob (3).svg" class="shapes showCase__shapes--item2">
+            <img src="./assets/img/svgShapes/blob.svg" class="shapes showCase__shapes--item1" data-aos="fade-right" data-aos-duration="1500">
+            <img src="./assets/img/svgShapes/blob (3).svg" class="shapes showCase__shapes--item2" data-aos="fade-left" data-aos-duration="1800">
             <div class="container">
                 <div class="row showCase__div">
                     <div class="col-md-6 col-sm-12 showCase__info">
@@ -61,8 +62,8 @@
         </section>
         <section class="aboutMe">
             <!-- svg shapes -->
-            <img src="./assets/img/svgShapes/blob (4).svg" class="shapes aboutMe__shapes--item1">
-            <img src="./assets/img/svgShapes/blob (1).svg" class="shapes aboutMe__shapes--item2">
+            <img src="./assets/img/svgShapes/blob (4).svg" class="shapes aboutMe__shapes--item1" data-aos="fade-up-right" data-aos-duration="1800">
+            <img src="./assets/img/svgShapes/blob (1).svg" class="shapes aboutMe__shapes--item2" data-aos="fade-down-left" data-aos-duration="2000">
             <div class="container" id="aboutMe">
                 <h2 class="aboutMe__title">Mais sobre mim</h2>
                 <div class="row">
@@ -153,17 +154,17 @@
             <div class="container">
                 <h2 class="projects__title" id="project__title">Projetos</h2>
                 <div class="row">
-                    <div class="col-md-6 col-lg-4 mt-3">
+                    <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-in" data-aos-duration="600" data-aos-once="true">
                         <div class="card">
                             <div class="card__img">
                                 <img class="img-fluid" src="./assets/img/pic_project.png" alt="Projeto Alfaiataria">
                                 <div class="card__img__btn">
-                                    <button class="card__img__btn--site">Ver live server</button>
-                                    <button class="card__img__btn--code">Ver GitHub code</button>
+                                    <button class="card__img__btn--site" style="cursor: not-allowed;">Ver live server</button>
+                                    <button class="card__img__btn--code" style="cursor: not-allowed;">Ver GitHub code</button>
                                 </div>
                             </div>
                             <div class="card__info">
-                                <p class="card__info--p">Projeto Alfaiataria</p>
+                                <p class="card__info--p">Projeto ainda em desenvolvimento</p>
                                 <div class="card__info__div">
                                     <button class="card__info__div--btn" style="cursor: default;">HTML</button>
                                     <button class="card__info__div--btn" style="cursor: default;">SCSS</button>
@@ -172,12 +173,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-3">
+                    <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-in" data-aos-duration="1200" data-aos-once="true">
                         <div class="card">
                             <div class="card__img">
                                 <img class="img-fluid" src="./assets/img/PremiumCard.png" alt="Projeto PremiumCard">
                                 <div class="card__img__btn">
-                                    <button class="card__img__btn--site">Ver live server</button>
+                                    <button class="card__img__btn--site" style="cursor: not-allowed;" data-bs-toggle="tooltip" title="Projeto será publicado em um futuro próximo! :)">Ver live server</button>
                                     <a href="https://github.com/Riicky-hub/PremiumCard" target="_blank"><button class="card__img__btn--code">Ver GitHub code</button></a>
                                 </div>
                             </div>
@@ -192,21 +193,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-3">
+                    <div class="col-md-6 col-lg-4 mt-3" data-aos="fade-in" data-aos-duration="600" data-aos-once="true">
                         <div class="card">
                             <div class="card__img">
-                                <img class="img-fluid" src="./assets/img/pic_project.png" alt="Projeto Alfaiataria">
+                                <img class="img-fluid" src="./assets/img/caculadora.png" alt="Projeto Calculadora">
                                 <div class="card__img__btn">
-                                    <button class="card__img__btn--site">Ver live server</button>
-                                    <button class="card__img__btn--code">Ver GitHub code</button>
+                                    <a href="https://riicky-hub.github.io/Calculadora/" target="_blank"><button class="card__img__btn--site">Ver live server</button></a>
+                                    <a href="https://github.com/Riicky-hub/Calculadora" target="_blank"><button class="card__img__btn--code">Ver GitHub code</button></a>
                                 </div>
                             </div>
                             <div class="card__info">
-                                <p class="card__info--p">Projeto Alfaiataria</p>
+                                <p class="card__info--p">Calculadora</p>
                                 <div class="card__info__div">
-                                    <button class="card__info__div--btn" style="cursor: default;">HTML</button>
-                                    <button class="card__info__div--btn" style="cursor: default;">CSS</button>
                                     <button class="card__info__div--btn" style="cursor: default;">JavaScript</button>
+                                    <button class="card__info__div--btn" style="cursor: default;">jQuery</button>
+                                    <button class="card__info__div--btn" style="cursor: default;">CSS</button>
                                 </div>
                             </div>
                         </div>
@@ -217,8 +218,8 @@
         <footer class="footer">
 
             <!-- svg shapes -->
-            <img src="./assets/img/svgShapes/blob (3).svg" class="shapes footer__shapes--item1">
-            <img src="./assets/img/svgShapes/blob (4).svg" class="shapes footer__shapes--item2">
+            <img src="./assets/img/svgShapes/blob (3).svg" class="shapes footer__shapes--item1" data-aos="fade-up-right" data-aos-duration="1400">
+            <img src="./assets/img/svgShapes/blob (4).svg" class="shapes footer__shapes--item2" data-aos="fade-left" data-aos-duration="2000">
             <div class="footer_contato">
                 <div class="container">
                     <div class="row">
@@ -310,6 +311,8 @@
             </div>
         </div>
         <script src="https://kit.fontawesome.com/efde86963f.js" crossorigin="anonymous"></script>
+        <script src="./assets/vendor/aos/js/aos.js"></script>
+        <script src="./assets/vendor/popper/popper.min.js"></script>
         <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="./assets/js/script.js"></script>
     </body>

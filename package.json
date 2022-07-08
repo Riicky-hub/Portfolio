@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Portfolio pessoal para mapear trabalhos e habilidades",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,8 @@
   "author": "Riicky-hub",
   "license": "ISC",
   "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "aos": "^2.3.4",
     "bootstrap": "^5.1.3"
   }
 }
